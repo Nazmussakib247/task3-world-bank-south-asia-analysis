@@ -40,8 +40,11 @@ for country, g in df.groupby('country', sort=False):
     })
 summary = pd.DataFrame(summary)
 summary.to_csv(OUT / 'country_2000_2024_summary.csv', index=False, float_format='%.4f')
+descriptive = df[['gdp_pc_2015_usd', 'life_expectancy_years']].describe()
+descriptive.to_csv(OUT / 'pooled_descriptive_statistics.csv', float_format='%.4f')
 pooled_r = df.gdp_pc_2015_usd.corr(df.life_expectancy_years)
 print(f'Observations: {len(df)}; missing: {int(df.isna().sum().sum())}; pooled Pearson r: {pooled_r:.4f}')
+print('Pooled descriptive statistics:\n', descriptive.round(2))
 print(summary.to_string(index=False, float_format=lambda x: f'{x:.2f}'))
 
 sns.set_theme(style='whitegrid', context='notebook')

@@ -13,6 +13,7 @@ In this project, I analyze annual World Bank indicators for Bangladesh, India, N
 - `data/*_api.json` and `data/api_metadata.json` — retained World Bank API responses and update metadata.
 - `figures/` — exported charts.
 - `outputs/country_2000_2024_summary.csv` — endpoint changes and summary metrics.
+- `outputs/pooled_descriptive_statistics.csv` — pooled median, quartiles, and distribution summaries.
 
 ## Reproduce
 
