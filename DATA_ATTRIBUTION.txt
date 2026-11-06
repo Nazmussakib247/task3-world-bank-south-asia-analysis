@@ -1,0 +1,8 @@
+The included World Bank indicator data are attributed to the World Bank and the source agencies identified on the indicator pages. The pages state a CC BY 4.0 license. Indicator sources and definitions:
+
+1. GDP per capita (constant 2015 US$), NY.GDP.PCAP.KD: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
+2. Life expectancy at birth, total (years), SP.DYN.LE00.IN: https://data.worldbank.org/indicator/SP.DYN.LE00.IN
+
+License information: https://datacatalog.worldbank.org/public-licenses
+
+Please check the source pages for updated values, metadata, and terms before reuse.

@@ -1,0 +1,9 @@
+Rows: 125 (expected 125)
+Years: 2000–2024 inclusive
+Countries: 5
+Missing GDP observations: 0
+Missing life-expectancy observations: 0
+Duplicate country-year rows: 0
+Invalid/non-positive GDP or implausible life expectancy rows: 0
+World Bank API last-updated metadata: {'NY.GDP.PCAP.KD': '2026-10-08', 'SP.DYN.LE00.IN': '2026-10-08'}
+Pooled Pearson correlation across country-years (descriptive only): 0.8354
